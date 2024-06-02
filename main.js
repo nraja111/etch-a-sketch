@@ -8,7 +8,7 @@ let random = false;
 let erase = false;
 
 body.setAttribute("style", "outline: solid red 5px; display: flex; flex-direction: column; justify-content: center; align-items: center; width: 1000px: height: 100px; padding: 100px; margin: 0; ");
-container.setAttribute("style", "display: flex; width: 500px; height: 500px; flex-wrap: wrap; border: 2px solid black; margin-left: 20px; margin-top: 150px; ");
+container.setAttribute("style", "display: flex; width: 500px; height: 500px; flex-wrap: wrap; border: 2px solid black; margin-left: 0px; margin-top: 150px; ");
 
 function setSize(size){
 let itemSize = 500/ size + 'px';

@@ -29,8 +29,8 @@
 }
 
 .slidecontainer{
-    margin-left: 100px;
-    margin-right: 20px;
+    margin-left: 300px;
+    margin-right: 0px;
     margin-top: 100px;
 }
 
@@ -73,6 +73,8 @@
 .lol{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    margin-top: -80px;
 }
 
 .container-title >h1 > span:first-of-type{

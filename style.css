@@ -1,0 +1,133 @@
+.slider, .redslider, .blue, .green {
+    appearance: none; /* removes browser-specific styling */
+    width: 300px; /* width of slider */
+    height: 25px; /* height of slider */
+    background: pink ; /* orange background */
+    outline: none; /* remove outline */
+    border-radius: 12px; /* round corners */
+}
+
+
+.redslider, .blue, .green{
+    width: 100px;
+}
+
+
+.slidecontainer, .butts{
+    
+    display: flex;
+    
+    justify-content: center;
+    margin: 10px;
+
+    width: 500px;
+    height: 600px;
+    align-items: flex-start;
+    flex-direction: column;
+    
+  
+}
+
+.slidecontainer{
+    margin-left: 100px;
+    margin-right: 20px;
+    margin-top: 100px;
+}
+
+.butts{
+    margin-left: 80px;
+    
+    margin-top: 70px;
+}
+
+.uno, .dos, .tres, .quatro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   
+
+}
+.rand, .eraser {
+    position: relative;
+    padding: 2.5em 5em;
+    border: 0;
+    border-radius: 0.5em;
+    background-color: pink;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+
+  .eraser{
+
+    margin-top: 80px;
+  }
+
+  .rand:active, .active , .eraser:active{
+  top: 2px;
+  left: 1px;
+  box-shadow: none;
+}
+
+.lol{
+    display: flex;
+    flex-direction: row;
+}
+
+.container-title >h1 > span:first-of-type{
+    color: #ff3939;
+  }
+  
+  .container-title >h1 > span:nth-of-type(2){
+    color: #66CC66;
+  }
+  
+  .container-title >h1 > span:nth-of-type(3){
+    color: #FF9966;
+  }
+  
+  .container-title >h1 > span:nth-of-type(4){
+    color: #ffd0e3;
+  }
+  
+  .container-title >h1 > span:nth-of-type(5){
+    color: #99d1ff;
+  }
+  
+  .container-title >h1 > span:nth-of-type(6){
+    color: #ffdb99;
+  }
+  
+  .container-title >h1 > span:nth-of-type(7){
+    color: #cbfff0;
+  }
+  
+  .container-title >h1 > span:nth-of-type(8){
+    color: #afc3ff;
+  }
+  
+  .container-title >h1 > span:nth-of-type(9){
+    color: #d8ffaf;
+  }
+  
+  .container-title >h1 > span:nth-of-type(10){
+    color: #ffafd6;
+  }
+  
+  .container-title >h1 > span:nth-of-type(11){
+    color: #aff4ff;
+  }
+  
+  .container-title >h1 > span:nth-of-type(11){
+    color: #ff2516;
+  }
+  
+  .container-title >h1 > span:nth-of-type(12){
+    color: #b0eeea;
+  }
+  
+  .container-title >h1 > span:nth-of-type(13){
+    color: #fff75d;
+  }
+

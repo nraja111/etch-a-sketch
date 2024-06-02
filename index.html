@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>etch a sketch </title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <div class="container-title">
+      <h1><span>E</span><span>t</span><span>c</span><span>h</span><span>-</span><span>a</span><span>-</span><span>s</span><span>k</span><span>e</span><span>t</span><span>c</span><span>h</span></h1>
+    </div>
+
+    <div class="lol">
+    <div class="slidecontainer">
+      
+      <div class ="uno">
+      <p> Change this slider to adjust the grid!</p>
+      <input type="range" min="1" max="100" value="16"  step = "1" class="slider" oninput="rangeValue.innerText = this.value">
+      <p id="rangeValue">16</p>  
+      </div>
+
+      <div class ="dos">
+      <p> This slider changes the red of the RGB value!</p>
+      <input type="range" min="0" max="255" value="0"  step = "1" class="redslider" oninput="rangevalred.innerText = this.value">
+      <p id="rangevalred">0</p> 
+      </div> 
+
+      <div class ="tres">
+      <p> This slider changes the green of the RGB value!</p>
+      <input type="range" min="0" max="255" value="0"  step = "1" class="green" oninput="greenval.innerText = this.value">
+      <p id="greenval">0</p> 
+      </div>
+
+      <div class ="quatro">
+      <p> This slider changes the blue of the RGB value!</p>
+      <input type="range" min="0" max="255" value="0"  step = "1" class="blue" oninput="blueval.innerText = this.value">
+      <p id="blueval">0</p>  
+      </div>
+
+      <div class = "example">
+      </div>
+
+      
+    </div>
+
+    <div class = "cover">
+    <div class = "container">  
+    </div>
+    </div>
+
+    <div class="butts">
+        <button class="rand">Random Color</button>
+        <button class="eraser">Eraser</button>
+    </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body >
+</html>
